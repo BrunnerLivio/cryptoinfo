@@ -4,6 +4,8 @@ defaults:
     scope:
       path: "data"
       type: "pages"
+    values:
+      layout: "2018/home"
 exclude:
   - Makefile
   - README.md

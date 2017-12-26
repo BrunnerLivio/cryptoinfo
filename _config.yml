@@ -1,3 +1,4 @@
+baseurl: /cryptoinfo
 defaults:
   -
     scope:
@@ -15,4 +16,3 @@ exclude:
   - package-lock.json
   - webpack.config.js
   - node_modules
-baseurl: /cryptoinfo

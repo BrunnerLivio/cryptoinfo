@@ -1,0 +1,9 @@
+{
+  "name": "cryptohelp",
+  "version": "1.0.0",
+  "description": "TL;DR for everything Crypto Currency related",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "MIT"
+}

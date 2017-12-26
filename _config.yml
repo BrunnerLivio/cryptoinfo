@@ -1,0 +1,17 @@
+defaults:
+  -
+    scope:
+      path: "data"
+      type: "pages"
+exclude:
+  - Makefile
+  - README.md
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - .babelrc
+  - yarn.lock
+  - package-lock.json
+  - webpack.config.js
+  - node_modules

@@ -5,7 +5,7 @@ defaults:
       path: "data"
       type: "pages"
     values:
-      layout: "2018/home"
+      layout: "2018/detail"
 exclude:
   - Makefile
   - README.md
@@ -18,3 +18,5 @@ exclude:
   - package-lock.json
   - webpack.config.js
   - node_modules
+destination: dist
+source: src

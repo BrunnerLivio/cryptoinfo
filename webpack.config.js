@@ -10,8 +10,12 @@
              exclude: /(node_modules)/,
              loader: 'babel-loader',
              options: {
-                presets: ['stage-3']
-            }
+                 presets: ['stage-3']
+             }
+         }],
+         rules: [{
+             test: /\.css$$/,
+             use: ['style-loader', 'css-loader']
          }]
      }
  };

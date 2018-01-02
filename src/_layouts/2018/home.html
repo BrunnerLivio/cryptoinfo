@@ -7,14 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ page.full_title }}</title>
     <base href="{{ site.baseurl }}">
-    <link rel="stylesheet" href="css/2018/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Mono:300" rel="stylesheet">
+    <link rel="stylesheet" href="/css/2018/main.css">
 </head>
 
 <body>
+    {% include 2018/header.html page=page %}
     <ul>
         {% for post in site.pages %}
         <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         </li>
         {% endfor %}
     </ul>

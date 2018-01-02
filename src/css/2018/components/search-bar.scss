@@ -1,0 +1,20 @@
+.search-bar {
+    background: #F6F9FC;
+    height: 50px;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+    input[type="text"] {
+        border: none;
+        height: 100%;
+        background: none;
+        outline: none;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.6);
+        padding: 0 15px;
+        width: 400px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .search-icon {
+        margin: 0 15px;
+        cursor: pointer;
+    }
+}

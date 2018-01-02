@@ -22,3 +22,4 @@ destination: dist
 source: src
 sass:
   sass_dir: css/2018
+theme: jekyll-theme-cayman

@@ -14,13 +14,7 @@
 
 <body>
     {% include 2018/header.html page=page %}
-    <ul>
-        {% for post in site.pages %}
-        <li>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
+    {% include 2018/topic-overview.html site=site page=page %}
     <script src="/bundle.js" type="text/javascript"></script>
 </body>
 

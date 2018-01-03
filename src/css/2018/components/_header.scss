@@ -11,6 +11,14 @@ $logo_width_xs: 300px;
         width: 100%;
         height: 100%;
     }
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        @media only screen and (min-width: $md) {
+            font-size: 40px;
+        }
+        font-size: 30px;
+        color: white;
+    }
     .logo {
         @media only screen and (min-width: $md) {
             height: 94 / 617 * $logo_width_md;

@@ -1,7 +1,7 @@
 <main class="topic-overview container">
     <div class="row topic-overview-content center-xs">
-      <section class="col-md-8 col-xs-10 column start-xs">
-        {% for category in site.data.categories.names %}
+      {% for category in site.data.categories.names %}
+      <section class="category col-md-8 col-xs-10 column start-xs">
           <h2>
               {{ category }}
           </h2>
@@ -14,7 +14,7 @@
               {% endif %} 
             {% endfor %} 
           </ul>
-        {% endfor %}
-      </section>
+        </section>
+      {% endfor %}
     </div>
 </main>

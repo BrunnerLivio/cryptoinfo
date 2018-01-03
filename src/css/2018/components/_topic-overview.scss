@@ -1,13 +1,20 @@
 .topic-overview {
     margin-top: 40px;
+    &-content{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
     h2 {
         font-family: 'Raleway', sans-serif;
         color: rgba(0, 0, 0, 0.3);
-        font-size: 24px;
-        margin: 30px 0;
+        @media only screen and (min-width: $md) {
+            font-size: 24px;
+            margin: 30px 0;
+        }
+        margin: 20px 0;
+        font-size: 20px;
     }
     ul {
-        margin-left: 10px;
         li {
             margin-bottom: 7px;
             a {

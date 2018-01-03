@@ -7,7 +7,10 @@
         height: 100%;
         background: none;
         outline: none;
-        font-size: 22px;
+        @media only screen and (min-width: $md) {
+            font-size: 22px;
+        }
+        font-size: 18px;
         color: rgba(0, 0, 0, 0.6);
         padding: 0 15px;
         width: calc(100% - 84px);

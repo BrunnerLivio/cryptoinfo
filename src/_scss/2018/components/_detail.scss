@@ -14,3 +14,22 @@
     font-family: 'Roboto', sans-serif;
   }
 }
+
+.right-nav {
+  padding: 30px;
+
+  label {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $title-color;
+  }
+  h2 {
+    color: $text-color;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .weaken {
+    color: $weaken-color;
+  }
+}

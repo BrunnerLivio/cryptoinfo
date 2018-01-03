@@ -8,16 +8,38 @@
 <body>
     {% include 2018/detail-header.html page=page %}
     <section class="row detail-container center-xs">
-        <sidenav class="col-xs-3">
+        <sidenav class="col-md-3 col-xs-12 ">
 
         </sidenav>
-        <main class="col-xs-6 detail-card card start-xs">
+        <main class="col-md-6 col-xs-12 detail-card card start-xs">
             {{ content }}
         </main>
-        <section class="col-xs-3">
-            <h2>
-                {{ page.technology}}
-            </h2>
+        <section class="col-md-3 col-xs-12 first-xs last-md right-nav start-xs">
+            <div class="row">
+                <div class="column col-xs-6 meta-block">
+                    <label>
+                        TECHNOLOGY
+                    </label>
+                    <h2>
+                        {{ page.technology }}
+                    </h2>
+                </div>
+                <div class="column col-xs-6 meta-block">
+                    <label>
+                        AVERAGE TRANSACTION
+                    </label>
+                    <h2>
+                        {{ page.average_transaction_min }}
+                        <span class="weaken">min</span>
+                    </h2>
+                </div>
+                <div class="column col-xs-6 meta-block">
+                    <label>
+                        PRICE
+                    </label>
+                    <h2 class="crypto-price" data-currency="{{ page.short_form }}"></h2>
+                </div>
+            </div>
         </section>
     </section>
     {% include 2018/scripts.html %}

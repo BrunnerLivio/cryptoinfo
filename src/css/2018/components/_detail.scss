@@ -1,0 +1,17 @@
+.detail-container {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.detail-card {
+  top: -40px;
+  position: relative;
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  p {
+    font-family: 'Roboto', sans-serif;
+  }
+}

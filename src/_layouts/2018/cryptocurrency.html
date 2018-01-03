@@ -7,7 +7,17 @@
 
 <body>
     {% include 2018/detail-header.html page=page %}
-    {{ content }}
+    <section class="row detail-container center-xs">
+        <sidenav class="col-xs-3">
+
+        </sidenav>
+        <main class="col-xs-6 detail-card card start-xs">
+            {{ content }}
+        </main>
+        <section class="col-xs-3">
+
+        </section>
+    </section>
     {% include 2018/scripts.html %}
 </body>
 

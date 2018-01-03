@@ -1,4 +1,26 @@
 body {
-  background: $background;
-  font-family: 'Raleway', sans-serif;
+    background: $background;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.3);
+    padding-bottom: 20px;
+    @media only screen and (min-width: $md) {
+        padding-bottom: 30px;
+    }
+}
+
+h2 {
+    font-size: 20px;
+    @media only screen and (min-width: $md) {
+        font-size: 24px;
+    }
+}
+
+p {
+    color: rgba(0, 0, 0, 0.8);
 }

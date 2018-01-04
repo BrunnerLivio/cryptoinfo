@@ -13,6 +13,8 @@ $logo_width_xs: 300px;
     }
     h1 {
         font-family: 'Raleway', sans-serif;
+        top: -40px;
+        position: relative;
         @media only screen and (min-width: $md) {
             font-size: 40px;
         }
@@ -37,6 +39,10 @@ $logo_width_xs: 300px;
         width: 100%;
     }
     .back {
+        padding-left: 30px;
+        @media only screen and (min-width: $md) {
+            padding-left: 0;
+        }
         .material-icons {
             color: white;
             font-size: 30px;

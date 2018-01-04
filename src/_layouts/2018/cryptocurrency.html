@@ -18,6 +18,14 @@
             <div class="row">
                 <div class="column col-xs-6 meta-block">
                     <label>
+                        SHORT FORM
+                    </label>
+                    <h2>
+                        {{ page.short_form }}
+                    </h2>
+                </div>
+                <div class="column col-xs-6 meta-block">
+                    <label>
                         TECHNOLOGY
                     </label>
                     <h2>
@@ -38,6 +46,12 @@
                         PRICE
                     </label>
                     <h2 class="crypto-price" data-currency="{{ page.short_form }}"></h2>
+                </div>
+                <div class="column col-xs-6 meta-block">
+                    <label>
+                        CHANGE 24 HOURS
+                    </label>
+                    <h2 class="crypto-change" data-currency="{{ page.short_form }}"></h2>
                 </div>
             </div>
         </section>

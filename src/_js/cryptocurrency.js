@@ -27,7 +27,7 @@ export class Cryptocurrency {
             .then(result => {
                 element.innerHTML =
 `
-<span>${numeral(result.price_usd).format('0,0[.]00')}</span><span class="weaken"> $</span>
+<span>${numeral(result.price).format('0,0[.]00')}</span><span class="weaken"> $</span>
 `
             });
     }

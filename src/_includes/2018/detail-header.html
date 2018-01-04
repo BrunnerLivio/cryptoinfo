@@ -1,26 +1,18 @@
-{% if page.primary_color and page.secondary_color %}
-  {% assign style = 'background:' 
-  | append: page.primary_color 
-  | append: '; background: -moz-linear-gradient(left,#' 
-  | append: page.primary_color 
-  | append: ' 0%, #'
-  | append: page.secondary_color
-  | append: ' 100%); background: -webkit-linear-gradient(left, #'
-  | append: page.primary_color
-  | append: ' 0%,#'
-  | append: page.secondy_color
-  | append: ' 100%); background: linear-gradient(to right, #'
-  | append: page.primary_color
-  | append: ' 0%,#'
-  | append: page.secondary_color
-  | append: ' 100%);' %}
-{% else %}
-  {% assign style = 'background: #' | append: page.primary_color %}
-{% endif %}
+{% if page.primary_color and page.secondary_color %} {% assign style = 'background:' | append: page.primary_color | append:
+'; background: -moz-linear-gradient(left,#' | append: page.primary_color | append: ' 0%, #' | append: page.secondary_color
+| append: ' 100%); background: -webkit-linear-gradient(left, #' | append: page.primary_color | append: ' 0%,#' | append:
+page.secondy_color | append: ' 100%); background: linear-gradient(to right, #' | append: page.primary_color | append: ' 0%,#'
+| append: page.secondary_color | append: ' 100%);' %} {% else %} {% assign style = 'background: #' | append: page.primary_color
+%} {% endif %}
 <header class="main-header" style="{{ style }}">
-    <section class="main-header-container row center-xs middle-xs">
-      <h1>
-        {{ page.title }}
-      </h1>
-    </section>
+  <div class="back col-md-offset-3">
+    <a href="/">
+      <i class="material-icons md-18">arrow_back</i>
+    </a>
+  </div>
+  <section class="main-header-container row center-xs middle-xs">
+    <h1>
+      {{ page.title }}
+    </h1>
+  </section>
 </header>

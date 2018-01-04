@@ -36,4 +36,12 @@ $logo_width_xs: 300px;
         top: -30px;
         width: 100%;
     }
+    .back {
+        .material-icons {
+            color: white;
+            font-size: 30px;
+        }
+        position: relative;
+        top: 30px;
+    }
 }

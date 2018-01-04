@@ -4,7 +4,8 @@
     "description": "TL;DR For Everything Cryptocurrency Related",
     "main": "index.js",
     "scripts": {
-        "build": "jekyll build && webpack"
+        "build": "jekyll build && webpack",
+        "dev": "concurrently -k -p command -c 'blue,green,yellow' 'jekyll build --safe --trace --drafts --watch --incremental' 'webpack --watch --colors' 'live-server dist/'"
     },
     "author": "",
     "license": "MIT",
@@ -15,6 +16,7 @@
         "babel-preset-env": "^1.6.1",
         "babel-preset-stage-3": "^6.24.1",
         "babel-runtime": "^6.26.0",
+        "concurrently": "^3.5.1",
         "css-loader": "^0.28.7",
         "node-sass": "^4.7.2",
         "sass-loader": "^6.0.6",

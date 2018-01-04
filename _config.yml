@@ -17,6 +17,8 @@ exclude:
   - package-lock.json
   - webpack.config.js
   - node_modules
+keep_files:
+  - bundle.js
 destination: dist
 source: src
 sass:

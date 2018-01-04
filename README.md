@@ -1,26 +1,9 @@
 # cryptoinfo
 
+> TL;DR For Everything Cryptocurrency Related
+
 ![Cryptoinfo Screenshot](https://raw.githubusercontent.com/BrunnerLivio/Cryptoinfo/master/.github/beta.png)
 
-TL;DR For Everything Cryptocurrency Related
+Something's missing? Create [an issue](https://github.com/BrunnerLivio/cryptoinfo/issues/new?title=Sheet%20request:%20SHEET_NAME_HERE)!
 
-## Installation
-
-### Requirements
-
-- Ruby 2.5.5
-  - RubyGem
-    - Bundler
-- NodeJS 8.x.x
-
-### Setup
-
-```bash
-bundle install && npm install
-```
-
-## Build
-
-```
-npm run build
-```
+Want to contribute? See [CONTRIBUTING.md](CONTRIBUTING.md) for developer notes

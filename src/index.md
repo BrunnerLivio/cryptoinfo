@@ -1,5 +1,5 @@
 ---
-full_title: "CryptoInfo — TL;DR for everything Cryptogit related"
+full_title: "CryptoInfo — TL;DR for everything Cryptocurrency related"
 layout: 2018/home
 og_type: website
 type: home

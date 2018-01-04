@@ -1,4 +1,23 @@
-<header class="main-header" style="background: #{{page.primary_color}} ">
+{% if page.primary_color and page.secondary_color %}
+  {% assign style = 'background:' 
+  | append: page.primary_color 
+  | append: '; background: -moz-linear-gradient(left,#' 
+  | append: page.primary_color 
+  | append: ' 0%, #'
+  | append: page.secondary_color
+  | append: ' 100%); background: -webkit-linear-gradient(left, #'
+  | append: page.primary_color
+  | append: ' 0%,#'
+  | append: page.secondy_color
+  | append: ' 100%); background: linear-gradient(to right, #'
+  | append: page.primary_color
+  | append: ' 0%,#'
+  | append: page.secondary_color
+  | append: ' 100%);' %}
+{% else %}
+  {% assign style = 'background: #' | append: page.primary_color %}
+{% endif %}
+<header class="main-header" style="{{ style }}">
     <section class="main-header-container row center-xs middle-xs">
       <h1>
         {{ page.title }}

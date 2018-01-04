@@ -24,7 +24,24 @@ h2 {
 p {
     color: $text-color;
     font-size: 16px;
+    margin-bottom: 10px;
     line-height: 16 * 1.618px;
+    a[href*="#source-"] {
+        font-size: 12px;
+        position: relative;
+        top: -4px;
+    }
+}
+
+a{
+    color: #03a9f4;
+    &:visited {
+        color: #0277bd;
+    }
+}
+
+strong {
+    font-weight: bold;
 }
 
 .fade-in {

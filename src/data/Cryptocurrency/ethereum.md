@@ -1,6 +1,7 @@
 ---
 title: Ethereum
 category: Cryptocurrency
+updated: 2018-01-04
 layout: 2018/cryptocurrency
 primary_color: 4A90E2
 technology: Blockchain

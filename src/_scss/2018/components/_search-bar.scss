@@ -1,4 +1,5 @@
 .search-bar {
+    margin-left: 7px;
     background: #F6F9FC;
     height: 50px;
     box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
@@ -14,10 +15,31 @@
         color: rgba(0, 0, 0, 0.6);
         padding: 0 15px;
         width: calc(100% - 84px);
-        font-family: 'Roboto Mono', monospace;
+        font-family: 'Roboto', sans-serif;
     }
     .search-icon {
         margin: 0 15px;
         cursor: pointer;
+    }
+}
+.results-container {
+    opacity: 0;
+    left: calc( 50% + 7px);
+    box-shadow: 0 15px 25px rgba(50, 50, 93, .1), 0 15px 15px rgba(0, 0, 0, .07);
+    min-width: 83.333%;
+    @media only screen and (min-width: $md) {
+        min-width: 66.666%;
+    }
+    margin-left: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 48px;
+    z-index: 3;
+    background: #F6F8FC;
+    li {
+        margin-top: 10px;
+    }
+    &:not(:empty) {
+        opacity: 1;
     }
 }

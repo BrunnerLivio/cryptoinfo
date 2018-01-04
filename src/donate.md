@@ -1,6 +1,7 @@
 ---
 title: "Donate"
 layout: 2018/detail
+updated: 2018-01-04
 type: home
 ---
 

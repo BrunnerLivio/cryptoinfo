@@ -1,6 +1,7 @@
 ---
 title: Bitcoin
 category: Cryptocurrency
+updated: 2018-01-04
 layout: 2018/cryptocurrency
 primary_color: F7931A
 technology: Blockchain

@@ -1,7 +1,7 @@
 {% if page.full_title %}
     {% assign title = page.full_title %}
 {% else %}
-    {% assign title = page.title | append: ' - CryptoInfo' %}
+    {% assign title = 'CryptoInfo - ' | append: page.title  %}
 {% endif %}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -3,6 +3,7 @@
 {% else %}
     {% assign title = 'CryptoInfo - ' | append: page.title  %}
 {% endif %}
+{% assign description = 'TL;DR For Everything Cryptocurrency Related' %}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -10,3 +11,19 @@
 <base href="{{ site.baseurl }}">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+
+<meta name="description" content="TL;DR For Everything Cryptocurrency Related">
+
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+<link rel="icon" type="image/png" href="/assets/favicon.png">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="#ca2b3e">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:site_name" content="CryptoInfo">
+<meta property="og:locale" content="en_US">

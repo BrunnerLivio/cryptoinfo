@@ -1,0 +1,49 @@
+<div class="row">
+    {% if page.short_form %}
+    <div class="column col-xs-6 meta-block">
+        <label>
+            SHORT FORM
+        </label>
+        <h2>
+            {{ page.short_form }}
+        </h2>
+    </div>
+    {% endif %}
+    {% if page.technology %}
+    <div class="column col-xs-6 meta-block">
+        <label>
+            TECHNOLOGY
+        </label>
+        <h2>
+            {{ page.technology }}
+        </h2>
+    </div>
+    {% endif %}
+    {% if page.average_transaction_min %}
+    <div class="column col-xs-6 meta-block">
+        <label>
+            AVERAGE TRANSACTION
+        </label>
+        <h2>
+            {{ page.average_transaction_min }}
+            <span class="weaken">min</span>
+        </h2>
+    </div>
+    {% endif %}
+    {% if page.short_form %}
+    <div class="column col-xs-6 meta-block">
+        <label>
+            PRICE
+        </label>
+        <h2 class="crypto-price" data-currency="{{ page.short_form }}"></h2>
+    </div>
+    {% endif %}
+    {% if page.short_form %}
+    <div class="column col-xs-6 meta-block">
+        <label>
+            CHANGE 24 HOURS
+        </label>
+        <h2 class="crypto-change" data-currency="{{ page.short_form }}"></h2>
+    </div>
+    {% endif %}
+</div>

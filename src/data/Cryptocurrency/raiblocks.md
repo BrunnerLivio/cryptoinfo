@@ -1,10 +1,10 @@
 ---
-title: Raiblocks
+title: RaiBlocks
 category: Cryptocurrency
 updated: 2018-01-04
 layout: 2018/cryptocurrency
-primary_color: 00CE4A
-secondary_color: 34A0EA
+primary_color: 00CE4B
+secondary_color: 6EC4FB
 technology: Block-lattice
 short_form: XRB
 ---

@@ -6,9 +6,18 @@
 .detail-card {
   top: -40px;
   position: relative;
-  h1 {
+  h1, h2, h3, h4, h5 {
     font-family: 'Raleway', sans-serif;
-    font-size: 30px;
+  }
+  h1 {
+    font-size: 36px;
+    :not(:first-child) {
+      margin-top: 40px;
+    }
+  }
+  h2 {
+    margin-top: 50px;
+    padding-bottom: 10px;
   }
   p {
     font-family: 'Roboto', sans-serif;

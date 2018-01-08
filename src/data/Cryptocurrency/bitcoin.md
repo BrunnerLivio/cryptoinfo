@@ -6,9 +6,14 @@ layout: 2018/cryptocurrency
 primary_color: F7931A
 technology: Blockchain
 short_form: BTC
+
+freedom_of_payments: true
+mining: true
+transfer_cost_in: Percent
+free_to_hold: true
+fraud_resistant: true 
 ---
 
 # tl;dr
 
-Bitcoin is the first cryptocurrency ever created.
-The network is peer-to-peer and transactions take place between users directly, without an intermediary. These transactions are verified by network nodes through the use of cryptography and recorded in a public distributed ledger called a blockchain.
+Trustless transactions between parties, Freedom of payments, Counterfeiting impossible, Fraud resistant, No single point of failure, No % based transfer costs, free to hold

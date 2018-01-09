@@ -24,6 +24,15 @@
   }
   table {
     font-family: 'Roboto', sans-serif;
+    overflow-x: scroll;
+    th {
+      color: $title-color;
+      font-weight: bold;
+      &:not(:first-child){
+        padding: 10px;
+      }
+      text-align: left;
+    }
     tr {
       td {
         &:not(:first-child){

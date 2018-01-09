@@ -23,42 +23,52 @@ IOTA enables companies to explore new business-2-business models by making every
 
 
 <table>
-    <tr>
-        <td>Iota</td>
-        <td>1 IOTA</td>
-        <td>1i</td>
-        <td>1i</td>
-    </tr>
-    <tr>
-        <td>KiloIota</td>
-        <td>1 Kiota</td>
-        <td>1Ki</td>
-        <td>1.000i</td>
-    </tr>
-    <tr>
-        <td>MegaIota</td>
-        <td>1 Miota</td>
-        <td>1Mi</td>
-        <td>1.000.000i</td>
-    </tr>
-    <tr>
-        <td>GigaIota</td>
-        <td>1 Gigota</td>
-        <td>1Gi</td>
-        <td>1.000.000.000i</td>
-    </tr>
-    <tr>
-        <td>TeraIota</td>
-        <td>1 Tiota</td>
-        <td>1Ti</td>
-        <td>1.000.000.000.000i</td>
-    </tr>
-    <tr>
-        <td>PetaIota</td>
-        <td>1 Piota</td>
-        <td>1Pi</td>
-        <td>1.000.000.000.000.000i</td>
-    </tr>
+<thead>
+        <tr>
+            <th> Unit </th>
+            <th> Alternate names  </th>
+            <th> Abbreviation </th>
+            <th> Decimal (IOTA) </th>
+        </tr>
+    </thead>
+    <tbody>
+         <tr>
+            <td>PetaIota</td>
+            <td>Piota</td>
+            <td>1Pi</td>
+            <td>1.000.000.000.000.000i</td>
+        </tr>
+        <tr>
+            <td>TeraIota</td>
+            <td>Tiota</td>
+            <td>1Ti</td>
+            <td>1.000.000.000.000i</td>
+        </tr>
+        <tr>
+            <td>GigaIota</td>
+            <td>Gigota</td>
+            <td>1Gi</td>
+            <td>1.000.000.000i</td>
+        </tr>
+        <tr>
+            <td>MegaIota</td>
+            <td>Miota</td>
+            <td>1Mi</td>
+            <td>1.000.000i</td>
+        </tr>
+       <tr>
+            <td>KiloIota</td>
+            <td>Kiota</td>
+            <td>1Ki</td>
+            <td>1.000i</td>
+        </tr>
+        <tr>
+            <td>Iota</td>
+            <td>IOTA</td>
+            <td>1i</td>
+            <td>1i</td>
+        </tr>
+    </tbody>
 </table>
 
 ## Seeds

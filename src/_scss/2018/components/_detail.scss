@@ -24,7 +24,10 @@
   }
   table {
     font-family: 'Roboto', sans-serif;
-    overflow-x: scroll;
+    overflow-x: auto;
+    max-width: 100%;
+    display: block;
+    white-space: nowrap;
     th {
       color: $title-color;
       font-weight: bold;

@@ -16,4 +16,7 @@ no_transaction_fees: false
 
 # tl;dr
 
-Trustless transactions between parties, Freedom of payments, Counterfeiting impossible, Fraud resistant, No single point of failure, No % based transfer costs, free to hold
+A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. [[1]](#source-1)
+
+## Sources
+<a href="https://coincheckup.com/coins/bitcoin/purpose" id="source-1">Coincheckup.com</a> - 01/04/2018

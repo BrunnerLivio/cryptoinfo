@@ -19,6 +19,48 @@ no_transaction_fees: true
 
 IOTA enables companies to explore new business-2-business models by making every technological resource a potential service to be traded on an open market in real time, with no fees. The main innovation behind IOTA is the Tangle, a revolutionary new blockless distributed ledger which is scalable, lightweight and for the first time ever makes it possible to transfer value without any fees. Contrary to today’s Blockchains, consensus is no-longer decoupled but instead an intrinsic part of the system, leading to decentralized and self-regulating peer-to-peer network. [[1]](#source-1)
 
+## Units
+
+
+<table>
+    <tr>
+        <td>Iota</td>
+        <td>1 IOTA</td>
+        <td>1i</td>
+        <td>1i</td>
+    </tr>
+    <tr>
+        <td>KiloIota</td>
+        <td>1 Kiota</td>
+        <td>1Ki</td>
+        <td>1.000i</td>
+    </tr>
+    <tr>
+        <td>MegaIota</td>
+        <td>1 Miota</td>
+        <td>1Mi</td>
+        <td>1.000.000i</td>
+    </tr>
+    <tr>
+        <td>GigaIota</td>
+        <td>1 Gigota</td>
+        <td>1Gi</td>
+        <td>1.000.000.000i</td>
+    </tr>
+    <tr>
+        <td>TeraIota</td>
+        <td>1 Tiota</td>
+        <td>1Ti</td>
+        <td>1.000.000.000.000i</td>
+    </tr>
+    <tr>
+        <td>PetaIota</td>
+        <td>1 Piota</td>
+        <td>1Pi</td>
+        <td>1.000.000.000.000.000i</td>
+    </tr>
+</table>
+
 ## Seeds
 
 A seed is a unique identifier that can be described as a combined username and password that grants you access to your IOTA.

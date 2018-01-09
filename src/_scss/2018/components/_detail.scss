@@ -22,6 +22,17 @@
   p {
     font-family: 'Roboto', sans-serif;
   }
+  table {
+    font-family: 'Roboto', sans-serif;
+    tr {
+      td {
+        &:not(:first-child){
+          padding: 10px;
+        }
+        padding-right: 15px;
+      }
+    }
+  }
 }
 
 .right-nav {

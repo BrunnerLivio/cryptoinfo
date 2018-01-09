@@ -8,8 +8,13 @@
           <ul class="row">
             {% for post in site.pages %}
               {% if post.category == category %} 
+                  {% if post.redirect %} 
+                    {% assign url = post.redirect %}
+                  {% else %} 
+                    {% assign url = site.baseurl | append: post.url %}
+                  {% endif %} 
                   <li class="col-xs-6">
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    <a href="{{ url }}">{{ post.title }} {% if post.redirect %} <i class="material-icons md-12 open-in-new">open_in_new</i> {% endif %}</a>
                   </li>
               {% endif %} 
             {% endfor %} 

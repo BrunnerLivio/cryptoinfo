@@ -1,0 +1,18 @@
+.cryptocurrency-summary {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 25px;
+    margin-bottom: 70px;
+    @media only screen and (min-width: $md) {
+        margin: 30px;
+    }
+    .summary-true {
+        color: #4caf50;
+    }
+    .summary-false {
+        color: #f44336;
+    }
+    label {
+        margin-top: 3px;
+        margin-right: 12px;
+    }
+}

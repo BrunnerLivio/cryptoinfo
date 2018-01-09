@@ -9,9 +9,9 @@ short_form: BTC
 
 freedom_of_payments: true
 mining: true
-transfer_cost_in: Percent
 free_to_hold: true
 fraud_resistant: true 
+no_transaction_fees: false
 ---
 
 # tl;dr

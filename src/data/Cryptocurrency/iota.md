@@ -7,12 +7,17 @@ primary_color: 3C004B
 secondary_color: 00877F
 technology: Tangle
 short_form: IOT
+
+freedom_of_payments: true
+mining: false
+free_to_hold: true
+fraud_resistant: true 
+no_transaction_fees: true
 ---
 
 # tl;dr
 
-High scalability, no mining, no blocks, no difficulty, no transaction fees, Trustless transactions between parties, Freedom of payments, Counterfeiting impossible, Fraud resistant, No single point of failure, No % based transfer costs, free to hold.
-Protocol is a directed acyclic graph (DAG) called the tangle instead of the traditional blockchain. Where a blockchain is a linked list where every block points to a unique descendant, in the tangle, a block links to two previous blocks. [[1]](#source-1)
+IOTA enables companies to explore new business-2-business models by making every technological resource a potential service to be traded on an open market in real time, with no fees. The main innovation behind IOTA is the Tangle, a revolutionary new blockless distributed ledger which is scalable, lightweight and for the first time ever makes it possible to transfer value without any fees. Contrary to today’s Blockchains, consensus is no-longer decoupled but instead an intrinsic part of the system, leading to decentralized and self-regulating peer-to-peer network. [[1]](#source-1)
 
 ## Seeds
 

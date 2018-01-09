@@ -1,12 +1,9 @@
-<div class="row">
+<div class="row cryptocurrency-summary">
     {% if page.short_form %}
-    <div class="column col-xs-6 meta-block">
-        <label>
-            Freedom of Payments
-        </label>
-        <h2>
-            {{ page.freedom_of_payments }}
-        </h2>
-    </div>
+    {% include 2018/summary_item.html condition=page.freedom_of_payments content="Freedom of Payments" %}
+    {% include 2018/summary_item.html condition=page.mining content="Mining" %}
+    {% include 2018/summary_item.html condition=page.free_to_hold content="Free to Hold" %}
+    {% include 2018/summary_item.html condition=page.fraud_resistant content="Fraud Resistant" %}
+    {% include 2018/summary_item.html condition=page.no_transaction_fees content="No Transaction Fees" %}
     {% endif %}
 </div>

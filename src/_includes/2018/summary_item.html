@@ -1,0 +1,12 @@
+{% if include.condition == true or include.condition == false %}
+<div class="row col-xs-12 end-md start-xs">
+    <label>
+        {{ include.content }}
+    </label>
+    {% if include.condition %}
+    <i class="material-icons md-18 summary-true">done</i>
+    {% else %}
+    <i class="material-icons md-18 summary-false">close</i>
+    {% endif %}
+</div>
+{% endif %}

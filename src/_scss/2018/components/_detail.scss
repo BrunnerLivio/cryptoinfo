@@ -26,7 +26,11 @@
 
 .right-nav {
   &:not(:empty){
-    padding: 30px;
+    padding: 0 30px;
+    padding-top: 30px;
+    @media only screen and (min-width: $md) {
+      padding: 30px;
+    }
   }
   label {
     font-size: 14px;
